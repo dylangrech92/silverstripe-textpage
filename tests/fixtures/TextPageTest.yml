@@ -1,0 +1,4 @@
+TextPage:
+  test:
+    URLSegment: test-txt
+    Content: Some text
