@@ -17,7 +17,7 @@ class TextPageTest extends SapphireTest {
         $this->objFromFixture('TextPage', 'test');
 
         $controller = TextPage_Controller::create(TextPage::get()->first());
-        $render     = $controller->render();
+        $render     = trim($controller->render()->value);
         $this->assertEquals( $render, 'Some text' );
         $this->assertEquals( strip_tags($render), $render );
     }
