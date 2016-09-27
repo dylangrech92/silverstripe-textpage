@@ -25,3 +25,4 @@ script:
 
 notifications:
   slack: innovativecodes:YoJEO1IutBmZV1E5wD8xrfDO
+  
